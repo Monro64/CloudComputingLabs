@@ -1,5 +1,6 @@
 #Third test, a glaringly obvious syntax error turned out to be my downfall.
-word = "oxo" # first test for predefined word
+word = (input(" Please enter the string you want \n")) #Modified to take in input
+word = word.lower() #Removed case sensitivity
 wordRev = word[::-1] #reverses original string, stores in new variable
 #Counter removed, no need for it.
 
